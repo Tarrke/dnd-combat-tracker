@@ -144,6 +144,8 @@ export function useCombatantStore({
             initiativeBonus: nc.initBonus ?? 0,
             imageUrl: nc.imageUrl,
             externalResourceUrl: nc.externalResourceUrl,
+            speed: nc.speed,
+            savingThrows: nc.savingThrows,
             cha: nc.cha,
             con: nc.con,
             dex: nc.dex,
